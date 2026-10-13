@@ -61,7 +61,10 @@
         ]
       },
       {
-        "tab": "Dokumentation - Neu"
+        "tab": "Dokumentation - Neu",
+        "pages": [
+          "introduction"
+        ]
       }
     ]
   },
