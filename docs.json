@@ -75,7 +75,7 @@
     "default": "dark"
   },
   "icons": {
-    "library": "fontawesome"
+    "library": "tabler"
   },
   "search": {
     "prompt": "Suche nach einem Stichwort oder Artikel"
@@ -92,5 +92,8 @@
   },
   "interaction": {
     "drilldown": true
+  },
+  "background": {
+    "decoration": "grid"
   }
 }
