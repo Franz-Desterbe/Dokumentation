@@ -100,5 +100,11 @@
   },
   "background": {
     "decoration": "grid"
+  },
+  "footer": {
+    "socials": {
+      "discord": "https://discord.gg/zQGMKcPqqy",
+      "website": "https://systems.nrw-roleplay.de"
+    }
   }
 }
