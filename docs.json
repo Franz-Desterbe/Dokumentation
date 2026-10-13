@@ -64,10 +64,15 @@
   },
   "navbar": {
     "primary": {
-      "type": "github",
+      "type": "discord",
       "href": "https://discord.gg/zQGMKcPqqy"
     },
-    "links": []
+    "links": [
+      {
+        "href": "https://systems.nrw-roleplay.de",
+        "label": "Dashboard"
+      }
+    ]
   },
   "description": "Willkommen in der offiziellen Dokumentation von NRW Systems. Hier findest du Anleitungen zu unserem Bot und allgemeine Informationen.",
   "appearance": {
