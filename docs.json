@@ -110,5 +110,8 @@
   "banner": {
     "content": "Wartungsarbeiten - Die Inhalte dieser Dokumentation sind veraltet.",
     "type": "info"
+  },
+  "variables": {
+    "Discord-Invite": "https://discord.gg/zQGMKcPqqy"
   }
 }
