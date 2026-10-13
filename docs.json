@@ -106,5 +106,9 @@
       "discord": "https://discord.gg/zQGMKcPqqy",
       "website": "https://systems.nrw-roleplay.de"
     }
+  },
+  "banner": {
+    "content": "Wartungsarbeiten - Die Inhalte dieser Dokumentation sind veraltet.",
+    "type": "info"
   }
 }
