@@ -10,6 +10,26 @@
   "navigation": {
     "tabs": [
       {
+        "tab": "Dokumentation - Neu",
+        "pages": [
+          "introduction",
+          {
+            "group": "Discord Bot",
+            "pages": [
+              "schnellstart"
+            ]
+          },
+          {
+            "group": "Bot Dashboard",
+            "pages": []
+          },
+          {
+            "group": "Team Dashboard",
+            "pages": []
+          }
+        ]
+      },
+      {
         "tab": "Dokumentation - Alt",
         "groups": [
           {
@@ -45,38 +65,18 @@
           },
           {
             "group": "Supportserver",
+            "expanded": true,
             "pages": [
               "pro-features",
               "partnerschaft",
               "tester-werden"
-            ],
-            "expanded": true
+            ]
           },
           {
             "group": "API - Beta Phase",
             "pages": [
               "anleitung"
             ]
-          }
-        ]
-      },
-      {
-        "tab": "Dokumentation - Neu",
-        "pages": [
-          "introduction",
-          {
-            "group": "Discord Bot",
-            "pages": [
-              "schnellstart"
-            ]
-          },
-          {
-            "group": "Bot Dashboard",
-            "pages": []
-          },
-          {
-            "group": "Team Dashboard",
-            "pages": []
           }
         ]
       }
