@@ -132,6 +132,6 @@
     "type": "info"
   },
   "variables": {
-    "Discord-Invite": "https://discord.gg/zQGMKcPqqy"
+    "discordInvite": "https://discord.gg/zQGMKcPqqy"
   }
 }
