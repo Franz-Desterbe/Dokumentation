@@ -1,6 +1,10 @@
 ---
 title: "Verifikation"
+description: "Schütze deinen Discord-Server mit flexiblen Verifizierungs-Stufen effektiv vor Raids und Bot-Angriffen."
+icon: "shield-check"
 ---
+
+<Badge color="blue">Sicherheits-Modul</Badge> <Badge color="green">Setup-Dauer: 2 Min.</Badge>
 
 Das **Verifikations-Modul** bietet deinem Server einen robusten Schutzschild gegen automatisierte Bot-Angriffe und Raids. Neue Mitglieder müssen den Verifizierungsprozess erfolgreich durchlaufen, bevor ihnen Zugriff auf die Kanäle gewährt wird.
 
@@ -14,7 +18,7 @@ Du kannst das Setup direkt über deinen Discord-Server oder ganz bequem über un
   <Tab title="Via Discord-Befehl" icon="discord">
     <Steps>
       <Step title="Setup-Befehl ausführen">
-        Führe auf deinem Server den Slash-Befehl `/verifikation_setup`
+        Führe auf deinem Server den Slash-Befehl `/verifikation_setup` aus.
       </Step>
       <Step title="Zielkanal festlegen">
         Wähle den Kanal aus, in dem die Verifizierungs-Nachricht (inklusive Interaktions-Button) gesendet werden soll.
@@ -26,16 +30,24 @@ Du kannst das Setup direkt über deinen Discord-Server oder ganz bequem über un
         - **Verified-Rolle:** Wird nach erfolgreicher Verifikation vergeben (schaltet Kanäle frei).
       </Step>
       <Step title="Sicherheitsstufe wählen">
-        Wähle zwischen **Level 1**, **Level 2** oder **Level 3**, um den Schutzfaktor festzulegen.
+        Wähle zwischen **Level 1**, **Level 2**, **Level 3** oder **Level 4**, um den Schutzfaktor festzulegen.
       </Step>
       <Step title="Optionen & Abschluss">
         Lege optional einen Log-Kanal fest und aktiviere `Auto-Unverified bei Join`. Klicke anschließend auf **Setup abschließen**.
 
         <Tip>
-          Die Konfigurationsnachricht kann nach dem Abschluss  gelöscht werden, sofern sie nicht `empheral` versendet wurde.
+          Die Konfigurationsnachricht kann nach dem Abschluss gelöscht werden, sofern sie nicht `ephemeral` (nur für dich sichtbar) versendet wurde.
         </Tip>
       </Step>
     </Steps>
+  </Tab>
+
+  <Tab title="Via Web-Dashboard" icon="sliders">
+    1. Logge dich im **Dashboard** ein und wähle deinen Server aus.
+    2. Navigiere in der linken Menüleiste zum Punkt **Verifikation**.
+    3. Aktiviere den Regler **Modul aktivieren**.
+    4. Wähle deine Kanäle, Rollen und die gewünschte Sicherheitsstufe aus.
+    5. Klicke unten rechts auf **Speichern**.
   </Tab>
 </Tabs>
 
@@ -45,21 +57,21 @@ Du kannst das Setup direkt über deinen Discord-Server oder ganz bequem über un
 
 Wähle die passende Sicherheitsstufe für deine Community. Du kannst diese Stufen jederzeit im laufenden Betrieb anpassen:
 
-<CardGroup cols={3}>
-  <Card title="Level 1: DM + Button" color="#3b82f6" icon="message">
+<CardGroup cols={2}>
+  <Card title="Level 1: DM + Button" icon="message">
     Der User klickt auf den Server-Button und erhält eine **Direktnachricht (DM)** vom Bot. Erst nach der Bestätigung in der DM wird die Rolle vergeben.
   </Card>
 
-  <Card title="Level 2: Instant-Button" color="#eab308" icon="bolt">
+  <Card title="Level 2: Instant-Button" icon="bolt">
     Die schnelle **Sofort-Verifikation**. Ein einziger Klick auf den Button im Verifikations-Kanal schaltet den Server direkt frei.
   </Card>
 
-  <Card title="Level 3: DM + Support-Server" color="#10B981" icon="file-symlink">
+  <Card title="Level 3: DM + Support-Server" icon="file-symlink">
     Höchster Schutz. Der User muss die DM bestätigen **und** zusätzlich Mitglied auf dem offiziellen Support-Server sein.
   </Card>
 
-  <Card title="Level 4: DM + Zufallscode" color="#F43F5E" icon="user-code">
-    Der User klickt auf den Server-Button und erhält eine **Direktnachricht (DM)** vom Bot in der ein zufälliger Code zur Bestätigung eingegeben werden muss.
+  <Card title="Level 4: DM + Zufallscode" icon="user-code">
+    Der User klickt auf den Server-Button und erhält eine **Direktnachricht (DM)** vom Bot, in der ein zufälliger Code zur Bestätigung eingegeben werden muss.
   </Card>
 </CardGroup>
 
