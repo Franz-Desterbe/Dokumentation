@@ -16,7 +16,13 @@
           {
             "group": "Discord Bot",
             "pages": [
-              "schnellstart"
+              "schnellstart",
+              {
+                "group": "Module",
+                "pages": [
+                  "verifikation"
+                ]
+              }
             ]
           },
           {
