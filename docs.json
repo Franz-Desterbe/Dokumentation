@@ -63,7 +63,19 @@
       {
         "tab": "Dokumentation - Neu",
         "pages": [
-          "introduction"
+          "introduction",
+          {
+            "group": "Discord Bot",
+            "pages": []
+          },
+          {
+            "group": "Bot Dashboard",
+            "pages": []
+          },
+          {
+            "group": "Team Dashboard",
+            "pages": []
+          }
         ]
       }
     ]
