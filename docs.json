@@ -142,5 +142,12 @@
   },
   "variables": {
     "discordInvite": "https://discord.gg/zQGMKcPqqy"
-  }
+  },
+  "redirects": [
+    {
+      "source": "/discord",
+      "destination": "https://discord.gg/zQGMKcPqqy",
+      "permanent": true
+    }
+  ]
 }
