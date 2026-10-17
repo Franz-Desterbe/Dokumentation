@@ -1,0 +1,68 @@
+---
+icon:
+  name: "inbox"
+  style: "regular"
+  library: "tabler"
+title: "Bot einladen"
+description: "Erfahre, wie du den Bot auf deinen Discord-Server einlädst und welche Berechtigungen für einen reibungslosen Betrieb erforderlich sind."
+---
+
+# Bot einladen
+
+Füge den Bot zu deinem Discord-Server hinzu, um Zugriff auf alle Funktionen und Module zu erhalten. Die Einrichtung dauert nur wenige Sekunden.
+
+---
+
+## Methoden zum Einladen
+
+Du kannst den Bot über zwei einfache Wege auf deinen Server holen:
+
+<CardGroup cols={2}>
+  <Card title="Direktlink nutzen" icon="link" href="https://discord.com/oauth2/authorize?client_id=1475955182675296288">
+    Klicke hier, um den Bot direkt über den offiziellen OAuth2-Einladungslink hinzuzufügen.
+  </Card>
+
+  <Card title="Über das Discord-Profil" icon="user-plus">
+    Klicke in Discord auf das Profil des Bots (z. B. auf einem anderen Server) und wähle **App hinzufügen** $$\rightarrow$$ **Auf meinen Server hinzufügen**.
+  </Card>
+</CardGroup>
+
+---
+
+## Erforderliche Berechtigungen
+
+Damit der Bot einwandfrei funktioniert und alle Module nutzen kann, benötigt er bestimmte Rechte auf deinem Server.
+
+<Warning>
+  Fehlen diese Berechtigungen, können einige Funktionen (wie z. B. die automatische Rollenvergabe oder das Erstellen von Support-Kanälen) nicht ausgeführt werden.
+</Warning>
+
+### Empfohlene Berechtigungen
+
+- **Server verwalten:** Erforderlich für allgemeine Einstellungen und Server-Analysen.
+- **Rollen verwalten:** Erforderlich für das Level-System, Willkommens-Rollen und Berechtigungs-Management.
+- **Kanäle verwalten:** Erforderlich für das Ticket-System und automatische Kanal-Einrichtungen.
+
+---
+
+## Häufige Fragen (FAQ)
+
+<AccordionGroup>
+  <Accordion title="Sollte ich dem Bot Administrator-Rechte geben?" icon="shield-check">
+    Die Vergabe der **Administrator**-Berechtigung ist der einfachste Weg, um sicherzustellen, dass der Bot ohne Einschränkungen funktioniert. Falls du dem Bot nicht volle Rechte gewähren möchtest, reichen die oben genannten Einzelberechtigungen aus.
+  </Accordion>
+
+  <Accordion title="Was passiert, wenn der Bot keine Rechte hat?" icon="alert-triangle">
+    Der Bot wird zwar auf deinem Server sein, Befehle oder automatisierte Aktionen (z. B. Nachrichten senden, Kanäle erstellen) schlagen jedoch mit einer Fehlermeldung fehl.
+  </Accordion>
+
+  <Accordion title="Der Bot tritt nach dem einladen dem Server nicht bei, was nun?" icon="face-id-error">
+    Der Bot tritt aus Kapazitätsgründen erst Servern bei, die 10 Mitglieder haben, eine entsprechende Warnung wurde beim Hinzufügen des Bots in einen Kanal und per DM an den Serverowner versendet.
+  </Accordion>
+</AccordionGroup>
+
+---
+
+<Card title="Brauchst du weitere Hilfe?" icon="discord" href="/discord">
+  Du hast Probleme beim Einladen oder die Berechtigungen funktionieren nicht wie gewünscht? Tritt unserem Discord-Server bei – unser Support-Team hilft dir gerne weiter!
+</Card>
